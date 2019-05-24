@@ -1,6 +1,7 @@
 <?php
 require('../objects/user.php');
-//get variables 
+//get variables
+
 //sanitize variables
 $name = htmlentities($_POST['username']);
 $email =htmlentities($_POST['email']);
