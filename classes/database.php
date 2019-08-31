@@ -22,12 +22,4 @@ class database
         return $this->conn;
     }
 }
-/*
-$db = new database();
-$dbname = DB_NAME;
-$sql = "SELECT * FROM users where username = 'jb' and email = 'jb@gmail.com'";
-$connect = $db->connect();
-$result = $connect->query($sql)->fetchAll(PDO::FETCH_ASSOC);
-echo json_encode($result);
-*/
 ?>
